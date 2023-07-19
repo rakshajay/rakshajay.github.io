@@ -1,0 +1,405 @@
+/* style.css */
+
+/* Brain ref image to be deleted */
+/*.image-container {
+    width: 100%;
+    height: 100%;
+}
+*/
+img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+
+
+/* All gears */
+.gear1 {
+    position: absolute;
+    width: 580px; 
+    object-fit: cover;
+}
+
+
+.gear1 {
+    top: 65px; 
+    left: 580px;
+}
+
+
+.gear2 {
+    position: fixed;
+    width: 270px;
+    height: 270px;
+}
+
+
+.gear2 {
+    top: 380px; 
+    left: 740px;
+}
+
+
+.gear3 {
+    position: fixed;
+    width: 190px; 
+    height: 190px;
+}
+
+
+.gear3 {
+    top: 505px; 
+    left: 810px;
+}
+
+
+.gear4 {
+    position: fixed;
+    width: 110px; 
+    height: 110px;
+}
+
+
+.gear4 {
+    top: 545px; 
+    left: 725px;
+}
+
+
+.gear5 {
+    position: fixed;
+    width: 80px; 
+    height: 80px;
+}
+
+
+.gear5 {
+    top: 520px; 
+    left: 545px;
+}
+
+
+.gear6 {
+    position: fixed;
+    width: 85px; 
+    height: 85px;
+}
+
+
+.gear6 {
+    top: 173px; 
+    left: 205px;
+}
+
+.gear7 {
+    position: fixed;
+    width: 55px; 
+    height: 55px;
+}
+
+
+.gear7 {
+    top: 6px; 
+    left: 445px;
+}
+
+.gear8 {
+    position: fixed;
+    width: 85px; 
+    height: 85px;
+}
+
+
+.gear8 {
+    top: 12px; 
+    left: 175px;
+}
+
+.gear9 {
+    position: fixed;
+    width: 125px; 
+    height: 125px;
+}
+
+
+.gear9 {
+    top: -2px; 
+    left: 775px;
+}
+
+.gear10 {
+    position: fixed;
+    width: 320px; 
+    height: 320px;
+}
+
+
+.gear10 {
+    top: 60px; 
+    left: 350px;
+}
+
+
+.gear11 {
+    position: fixed;
+    width: 350px; 
+    height: 350px;
+}
+
+
+.gear11 {
+    top: -2px; 
+    left: 220px;
+}
+
+.gear12 {
+    position: fixed;
+    width: 300px; 
+    height: 300px;
+}
+
+
+.gear12{
+    top: 170px; 
+    left: 245px;
+}
+
+
+.gear13 {
+    position: fixed;
+    width: 220px; 
+    height: 220px;
+}
+
+
+.gear13{
+    top: 2px; 
+    left: 625px;
+}
+
+.gear14 {
+    position: fixed;
+    width: 200px; 
+    height: 200px;
+}
+
+
+.gear14{
+    top: 390px; 
+    left: 385px;
+}
+
+.gear15 {
+    position: fixed;
+    width: 90px; 
+    height: 90px;
+}
+
+
+.gear15{
+    top: 230px; 
+    left: 205px;
+}
+
+.gear16 {
+    position: fixed;
+    width: 300px; 
+    height: 300px;
+}
+
+
+.gear16{
+    top: 0px; 
+    left: 0px;
+}
+
+.gear17 {
+    position: fixed;
+    width: 165px; 
+    height: 165px;
+}
+
+
+.gear17{
+    top: 410px; 
+    left: 505px;
+}
+
+.gear18 {
+    position: fixed;
+    width: 095px; 
+    height: 095px;
+}
+
+
+.gear18{
+    top: 390px; 
+    left: 615px;
+}
+
+.gear19 {
+    position: fixed;
+    width: 105px; 
+    height: 105px;
+}
+
+
+.gear19{
+    top: 540px; 
+    left: 390px;
+}
+
+.gear20 {
+    position: fixed;
+    width: 65px; 
+    height: 65px;
+}
+
+
+.gear20{
+    top: 290px; 
+    left: 10px;
+}
+
+.gear21 {
+    position: fixed;
+    width: 165px; 
+    height: 165px;
+}
+
+
+.gear21{
+    top: 210px; 
+    left: 110px;
+}
+
+
+.gear22 {
+    position: fixed;
+    width: 410px; 
+    height: 410px;
+}
+
+
+.gear22{
+    top: 190px; 
+    left: 400px;
+}
+
+.gear23 {
+    position: fixed;
+    width: 280px; 
+    height: 280px;
+}
+
+
+.gear23{
+    top: 1px; 
+    left: 480px;
+}
+
+
+.gear26 {
+    position: fixed;
+    width: 1160px; 
+    height: 1160px;
+}
+
+
+.gear26{
+    top: 510px; 
+    left: 120px;
+}
+
+.gear27 {
+    position: fixed;
+    width: 230px; 
+    height: 230px;
+}
+
+
+.gear27{
+    top: 440px; 
+    left: 600px;
+}
+
+
+.gear28 {
+    position: fixed;
+    width: 120px; 
+    height: 120px;
+}
+
+
+.gear28{
+    top: 520px; 
+    left: 460px;
+}
+
+.gear29 {
+    position: fixed;
+    width: 110px; 
+    height: 110px;
+}
+
+
+.gear29{
+    top: 600px; 
+    left: 410px;
+}
+
+
+.gear30 {
+    position: fixed;
+    width: 230px; 
+    height: 230px;
+}
+
+
+.gear30{
+    top: 160px; 
+    left: 10px;
+}
+
+.gear31 {
+    position: fixed;
+    width: 160px; 
+    height: 160px;
+}
+
+
+.gear31{
+    top: 95px; 
+    left: 220px;
+}
+
+.gear32 {
+    position: fixed;
+    width: 170px; 
+    height: 170px;
+}
+
+
+.gear32{
+    top: 90px; 
+    left: 110px;
+}
+
+/* Rotate animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply animation when hovering over gears */
+.gear1:hover,
+.gear2:hover,
+.gear3:hover,
+.gear4:hover {
+    animation: spin 1s linear;
+}
