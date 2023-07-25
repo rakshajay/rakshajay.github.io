@@ -195,7 +195,7 @@ img {
 
 
 /* All gears */
-.gear1 {
+#gear1 {
     position: fixed;
     width: 580px; 
     object-fit: cover;
@@ -203,366 +203,366 @@ img {
 
 
 
-.gear1 {
+#gear1 {
     top: 65px; 
     left: 580px;
 }
 
 
-.gear2 {
+#gear2 {
     position: fixed;
     width: 12%;
     
 }
 
 
-.gear2 {
+#gear2 {
     top: 380px; 
     left: 740px;
 }
 
 
-.gear3 {
+#gear3 {
     position: fixed;
     width: 190px; 
     height: 190px;
 }
 
 
-.gear3 {
+#gear3 {
     top: 505px; 
     left: 810px;
 }
 
 
-.gear4 {
+#gear4 {
     position: fixed;
     width: 110px; 
     height: 110px;
 }
 
 
-.gear4 {
+#gear4 {
     top: 545px; 
     left: 725px;
 }
 
 
-.gear5 {
+#gear5 {
     position: fixed;
     width: 80px; 
     height: 80px;
 }
 
 
-.gear5 {
+#gear5 {
     top: 520px; 
     left: 545px;
 }
 
 
-.gear6 {
+#gear6 {
     position: fixed;
     width: 85px; 
     height: 85px;
 }
 
 
-.gear6 {
+#gear6 {
     top: 173px; 
     left: 205px;
 }
 
-.gear7 {
+#gear7 {
     position: fixed;
     width: 55px; 
     height: 55px;
 }
 
 
-.gear7 {
+#gear7 {
     top: 6px; 
     left: 445px;
 }
 
-.gear8 {
+#gear8 {
     position: fixed;
     width: 85px; 
     height: 85px;
 }
 
 
-.gear8 {
+#gear8 {
     top: 12px; 
     left: 175px;
 }
 
-.gear9 {
+#gear9 {
     position: fixed;
     width: 125px; 
     height: 125px;
 }
 
 
-.gear9 {
+#gear9 {
     top: -2px; 
     left: 775px;
 }
 
-.gear10 {
+#gear10 {
     position: fixed;
     width: 320px; 
     height: 320px;
 }
 
 
-.gear10 {
+#gear10 {
     top: 60px; 
     left: 350px;
 }
 
 
-.gear11 {
+#gear11 {
     position: fixed;
     width: 350px; 
     height: 350px;
 }
 
 
-.gear11 {
+#gear11 {
     top: -2px; 
     left: 220px;
 }
 
-.gear12 {
+#gear12 {
     position: fixed;
     width: 300px; 
     height: 300px;
 }
 
 
-.gear12{
+#gear12{
     top: 170px; 
     left: 245px;
 }
 
 
-.gear13 {
+#gear13 {
     position: fixed;
     width: 220px; 
     height: 220px;
 }
 
 
-.gear13{
+#gear13{
     top: 2px; 
     left: 625px;
 }
 
-.gear14 {
+#gear14 {
     position: fixed;
     width: 200px; 
     height: 200px;
 }
 
 
-.gear14{
+#gear14{
     top: 390px; 
     left: 385px;
 }
 
-.gear15 {
+#gear15 {
     position: fixed;
     width: 90px; 
     height: 90px;
 }
 
 
-.gear15{
+#gear15{
     top: 230px; 
     left: 205px;
 }
 
-.gear16 {
+#gear16 {
     position: fixed;
     width: 300px; 
     height: 300px;
 }
 
 
-.gear16{
+#gear16{
     top: 0px; 
     left: 0px;
 }
 
-.gear17 {
+#gear17 {
     position: fixed;
     width: 165px; 
     height: 165px;
 }
 
 
-.gear17{
+#gear17{
     top: 410px; 
     left: 505px;
 }
 
-.gear18 {
+#gear18 {
     position: fixed;
     width: 095px; 
     height: 095px;
 }
 
 
-.gear18{
+#gear18{
     top: 390px; 
     left: 615px;
 }
 
-.gear19 {
+#gear19 {
     position: fixed;
     width: 105px; 
     height: 105px;
 }
 
 
-.gear19{
+#gear19{
     top: 540px; 
     left: 390px;
 }
 
-.gear20 {
+#gear20 {
     position: fixed;
     width: 65px; 
     height: 65px;
 }
 
 
-.gear20{
+#gear20{
     top: 290px; 
     left: 10px;
 }
 
-.gear21 {
+#gear21 {
     position: fixed;
     width: 165px; 
     height: 165px;
 }
 
 
-.gear21{
+#gear21{
     top: 210px; 
     left: 110px;
 }
 
 
-.gear22 {
+#gear22 {
     position: fixed;
     width: 410px; 
     height: 410px;
 }
 
 
-.gear22{
+#gear22{
     top: 190px; 
     left: 400px;
 }
 
-.gear23 {
+#gear23 {
     position: fixed;
     width: 280px; 
     height: 280px;
 }
 
 
-.gear23{
+#gear23{
     top: 1px; 
     left: 480px;
 }
 
 
-.gear26 {
+#gear26 {
     position: fixed;
     width: 1160px; 
     height: 1160px;
 }
 
 
-.gear26{
+#gear26{
     top: 510px; 
     left: 120px;
 }
 
-.gear27 {
+#gear27 {
     position: fixed;
     width: 230px; 
     height: 230px;
 }
 
 
-.gear27{
+#gear27{
     top: 440px; 
     left: 600px;
 }
 
 
-.gear28 {
+#gear28 {
     position: fixed;
     width: 120px; 
     height: 120px;
 }
 
 
-.gear28{
+#gear28{
     top: 520px; 
     left: 460px;
 }
 
-.gear29 {
+#gear29 {
     position: fixed;
     width: 110px; 
     height: 110px;
 }
 
 
-.gear29{
+#gear29{
     top: 600px; 
     left: 410px;
 }
 
 
-.gear30 {
+#gear30 {
     position: fixed;
     width: 230px; 
     height: 230px;
 }
 
 
-.gear30{
+#gear30{
     top: 160px; 
     left: 10px;
 }
 
-.gear31 {
+#gear31 {
     position: fixed;
     width: 160px; 
     height: 160px;
 }
 
 
-.gear31{
+#gear31{
     top: 95px; 
     left: 220px;
 }
 
-.gear32 {
+#gear32 {
     position: fixed;
     width: 170px; 
     height: 170px;
 }
 
 
-.gear32{
+#gear32{
     top: 90px; 
     left: 110px;
 }
@@ -571,227 +571,227 @@ img {
 
 /*-------------------Rotate animation*/   
 
-.gear1 img {
+#gear1 img {
   transition: transform .8s; /* Add transition for smooth rotation */
 }
 
-.gear1:hover img {
+#gear1:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
 
-.gear2 img {
+#gear2 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear2:hover img {
+#gear2:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
 
-.gear3 img {
+#gear3 img {
   transition: transform .4s; /* Add transition for smooth rotation */
 }
 
-.gear3:hover img {
+#gear3:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear4 img {
+#gear4 img {
   transition: transform .001s; /* Add transition for smooth rotation */
 }
 
-.gear4:hover img {
+#gear4:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
 
-.gear5 img {
+#gear5 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear5:hover img {
+#gear5:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear6 img {
+#gear6 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear6:hover img {
+#gear6:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
 
-.gear7 img {
+#gear7 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear7:hover img {
+#gear7:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear8 img {
+#gear8 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear8:hover img {
+#gear8:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear10 img {
+#gear10 img {
   transition: transform 1s; /* Add transition for smooth rotation */
 }
 
-.gear10:hover img {
+#gear10:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear12 img {
+#gear12 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear12:hover img {
+#gear12:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear14 img {
+#gear14 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear14:hover img {
+#gear14:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear15 img {
+#gear15 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear15:hover img {
+#gear15:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
-.gear17 img {
+#gear17 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear17:hover img {
+#gear17:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear18 img {
+#gear18 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear18:hover img {
+#gear18:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear19 img {
+#gear19 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear19:hover img {
+#gear19:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
 
 
-.gear20 img {
+#gear20 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear20:hover img {
+#gear20:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear21 img {
+#gear21 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear21:hover img {
+#gear21:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear22 img {
+#gear22 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear22:hover img {
+#gear22:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear23 img {
+#gear23 img {
   transition: transform 1s; /* Add transition for smooth rotation */
 }
 
-.gear23:hover img {
+#gear23:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear27 img {
+#gear27 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear27:hover img {
+#gear27:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear28 img {
+#gear28 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear28:hover img {
+#gear28:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear30 img {
+#gear30 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear30:hover img {
+#gear30:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear31 img {
+#gear31 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear31:hover img {
+#gear31:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
 
-.gear32 img {
+#gear32 img {
   transition: transform 2s; /* Add transition for smooth rotation */
 }
 
-.gear32:hover img {
+#gear32:hover img {
   transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
