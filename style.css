@@ -13,13 +13,194 @@ img {
 }
 
 
+@media screen and (max-width: 768px) {
+  .concept-img2 img{
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+/* -----------------text-------*/
+
+
+
+ 
+.contentContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  padding-right: 20px; /* Adjust as necessary */
+}
+
+.Projecttittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px; /* Adjust as necessary */
+}
+
+.AestheticAdaptInStoreStyling {
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 52px;
+  font-family: Raleway;
+}
+
+.tagline {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 52px;
+  font-family: Raleway;
+}
+
+.icon {
+  /* Insert any additional styling for your icon here. */
+}
+
+
+/* ----------icons-------*/
+
+.iconarrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-right: 20px;
+}
+
+.contacticons {
+
+     position: fixed;
+    right: 0;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row; 
+    padding-right: 40px;
+    gap: 20px;
+    
+}
+
+.contacticons svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.contacticons svg:hover {
+  transform: scale(1.2);
+}
+
+/* ----------buttons-------*/
+
+
+.buttonContainer {
+    position: fixed;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px; /* This creates an invisible clickable area that triggers the hover effect */
+    box-sizing: content-box; /* This makes sure padding is not included in width and height */
+    transition: transform 0.5s ease-in-out;
+}
+
+.buttonContainer .sideButton {
+    position: relative;
+    right: -150px; /* This moves the button off the screen initially */
+    transition: right 0.5s ease-in-out;
+}
+
+.buttonContainer:hover .sideButton {
+    right: 0; /* This brings the button back onto the screen when the container is hovered */
+}
+
+
+.sideButton {
+    display: flex;
+    height: 48px;
+    width: 146px;
+    transform: rotate(-90deg);
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease-in-out, background .2s ease-in-out;
+    border-radius: 8px;
+    background: var(--ash-black, #16191695);
+    margin-bottom: 130px; /* Provide some space between each button */
+}
+
+.sideButton:hover {
+   transform: rotate(-90deg) scale(1.25);
+   background: var(--ash-gray, #A9B1AA80);
+}
+
+
+.aboutme{
+    color: var(--gray-lm-lighter-gray, #F9F9F980);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+}
+
+.aboutproject{
+    color: var(--gray-lm-lighter-gray, #F9F9F980);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+}
+
+.inspiration{
+    color: var(--gray-lm-lighter-gray, #F9F9F980);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+}
+
+.gallery {
+    color: var(--gray-lm-lighter-gray, #F9F9F980);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+}
+
+.workflow{
+    color: var(--gray-lm-lighter-gray, #F9F9F980);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+}
+
 
 /* All gears */
 .gear1 {
-    position: absolute;
+    position: fixed;
     width: 580px; 
     object-fit: cover;
 }
+
 
 
 .gear1 {
@@ -30,8 +211,8 @@ img {
 
 .gear2 {
     position: fixed;
-    width: 270px;
-    height: 270px;
+    width: 12%;
+    
 }
 
 
@@ -386,20 +567,231 @@ img {
     left: 110px;
 }
 
-/* Rotate animation */
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+
+
+/*-------------------Rotate animation*/   
+
+.gear1 img {
+  transition: transform .8s; /* Add transition for smooth rotation */
 }
 
-/* Apply animation when hovering over gears */
-.gear1:hover,
-.gear2:hover,
-.gear3:hover,
-.gear4:hover {
-    animation: spin 1s linear;
+.gear1:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+
+.gear2 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear2:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+
+.gear3 img {
+  transition: transform .4s; /* Add transition for smooth rotation */
+}
+
+.gear3:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear4 img {
+  transition: transform .001s; /* Add transition for smooth rotation */
+}
+
+.gear4:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+
+.gear5 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear5:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear6 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear6:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+
+.gear7 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear7:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear8 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear8:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear10 img {
+  transition: transform 1s; /* Add transition for smooth rotation */
+}
+
+.gear10:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear12 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear12:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear14 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear14:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear15 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear15:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+.gear17 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear17:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear18 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear18:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear19 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear19:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+
+
+.gear20 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear20:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear21 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear21:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear22 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear22:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear23 img {
+  transition: transform 1s; /* Add transition for smooth rotation */
+}
+
+.gear23:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear27 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear27:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear28 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear28:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear30 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear30:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear31 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear31:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
+}
+
+.gear32 img {
+  transition: transform 2s; /* Add transition for smooth rotation */
+}
+
+.gear32:hover img {
+  transform: rotate(360deg); /* Rotate the wheel 360 degrees on hover */
 }
