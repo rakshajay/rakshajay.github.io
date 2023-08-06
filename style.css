@@ -140,8 +140,11 @@ img {
 .sideButton:hover {
    transform: rotate(-90deg) scale(1.25);
    background: var(--ash-gray, #A9B1AA80);
+   
 }
-
+.sideButton:hover button {
+  color: #161916; /* Color for the text when hovered */
+}
 
 .aboutme{
     color: var(--gray-lm-lighter-gray, #F9F9F980);
@@ -153,6 +156,31 @@ img {
     line-height: 16px; 
 }
 
+
+.sideButton .contentaboutme {
+    display: flex;
+    width: 451px;
+    padding: 12px 10px;
+    align-items: center;
+    gap: 13px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    position: absolute;
+    left: -240px; 
+    bottom: 120px; 
+    transform: rotate(90deg);
+   border-radius: 12px;
+background: var(--ash-gray, #A9B1AA);
+}
+
+.sideButton:hover .contentaboutme {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
 .aboutproject{
     color: var(--gray-lm-lighter-gray, #F9F9F980);
     text-align: center;
@@ -163,6 +191,31 @@ img {
     line-height: 16px; 
 }
 
+
+.sideButton .contentaboutproject {
+    display: flex;
+    width: 551px;
+    padding: 12px 10px;
+    align-items: center;
+    gap: 13px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    position: absolute;
+    left: -340px; 
+    bottom: -10px; 
+    transform: rotate(90deg);
+   border-radius: 12px;
+background: var(--ash-gray, #A9B1AA);
+}
+
+.sideButton:hover .contentaboutproject {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
 .inspiration{
     color: var(--gray-lm-lighter-gray, #F9F9F980);
     text-align: center;
@@ -171,6 +224,30 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: 16px; 
+}
+
+
+
+.sideButton .contentinspiration {
+    display: flex;
+    width: 551px;
+    padding: 12px 10px;
+    align-items: center;
+    gap: 13px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    position: absolute;
+    left: -220px; 
+    bottom: 110px; 
+    transform: rotate(90deg);
+   border-radius: 12px;
+background: var(--ash-gray, #A9B1AA);
+}
+
+.sideButton:hover .contentinspiration {
+    opacity: 1;
+    visibility: visible;
 }
 
 .gallery {
@@ -633,7 +710,9 @@ img {
 }
 
 
-
+body {
+  transition: background-color 0.5s ease-in-out; /* Smooth transition */
+}
 
 #gear7 img {
   transition: transform 2s; /* Add transition for smooth rotation */

@@ -5,6 +5,7 @@
 
 	<title>Aesthetic adapt store styling</title>
 	<script src="https://cdn.tailwindcss.com"></script>
+	<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
 	<link rel="stylesheet" href="./style.css">
 </head>
@@ -18,6 +19,15 @@
     </div>     
 
 -->
+
+
+<model-viewer src="model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+   
+</model-viewer>
+
 
 	<!--text & icon----->
 	<div class="contentContainer">
@@ -77,12 +87,27 @@
 	<div class="buttonContainer">
 		<div class="sideButton">
 			<button class="aboutme">About me</button>
+			<div class="contentaboutme">
+    <p>Welcome to my creative world where architecture, art, and cooking converge! I'm Raksha Shetty, an imaginative architect and adventurous chef. I design enchanting buildings akin to magical castles, infused with vibrant colors. In the kitchen, I embark on flavorful culinary expeditions, blending Indian and Thai cuisine. Seeking fresh inspiration and unique materials, I love adding a touch of magic to my creations. When not creating, you'll find me exploring street markets, seeking ingredients, or indulging in outdoor adventures. I'm a passionate advocate for gender equality. Let's create something extraordinary together! Join me on this artistic journey!</p>
+
+  </div>
 		</div>
 		<div class="sideButton">
 			<button class="aboutproject">About Project</button>
+				<div class="contentaboutproject">
+    <p>"Welcome to Aesthetic Adapt in Store Styling – where the world of retail meets personalized experiences! My project aims to revolutionize the way we interact with physical retail spaces by seamlessly blending technology and aesthetics. It's all about creating a shopping environment that caters to individual preferences and makes customers feel truly valued. Through a unique combination of cutting-edge technologies like artificial intelligence and sensory feedback, I have developed a system that understands and adapts to each customer's visual choices and brand aesthetics. Picture this: as you step into a store, vibrant LED displays come alive with visuals that resonate with your personal style and preferences. It's like entering a magical realm where the store itself seems to have been designed just for you. But it doesn't stop there – I've taken personalization to a whole new level by considering your emotional state as well. An EEG device discreetly measures your positive or negative feelings in real-time, allowing the system to generate prompts that adapt to your needs. This ensures that your shopping journey is not only visually pleasing but also emotionally satisfying and comfortable. Throughout the process, the system continuously learns from your responses, fine-tuning the prompts until your alpha waves indicate a state of relaxation and contentment. And here's the exciting part – the brand behind the store also gains invaluable insights into your aesthetic choices, enabling them to refine their offerings and tailor future experiences even further. So, get ready to embark on a shopping adventure like no other – one that merges technology, customer insights, and sensory experiences. Join me as we dive into a world where retail spaces become dynamic, personal, and enchanting. Discover the power of Aesthetic Adapt in Store Styling and let your shopping experience transcend the ordinary."</p>
+    
+  </div>
+
 		</div>
 		<div class="sideButton">
 			<button class="inspiration">Inspiration</button>
+
+		<div class="contentinspiration">
+    <p>"Inspiration for Aesthetic Adapt in Store Styling stemmed from a deep fascination with the intersection of technology and human experiences. As the world rapidly evolves, the lines between our physical, digital, and virtual lives become increasingly blurred. I found myself pondering how this evolving landscape could be harnessed to create truly meaningful and personalized retail experiences. I wanted to bridge the gap between technology-driven efficiency and the human touch that customers crave. In my quest for inspiration, I delved into the works of thought leaders like Brian Solis, who emphasized the importance of using technology to craft magical experiences that make customers feel special. I was captivated by the idea of designing a retail space that not only catered to individual preferences but also fostered a sense of community and belonging. Furthermore, I drew inspiration from forward-thinking brands like Warby Parker and Bonobos, who recognized the significance of going beyond mere efficiency and creating meaningful interactions within their physical retail spaces. Their commitment to cultivating a unique and engaging atmosphere resonated deeply with me."</p>
+    
+     </div>
+
 		</div>
 		<div class="sideButton">
 			<button class="gallery">Image gallery</button>
@@ -214,12 +239,15 @@
 			</div>
 
 		</div>
+
+		<div id="result"></div>
 	</div>
 
 
-	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
-		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="cript.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
