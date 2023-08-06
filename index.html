@@ -21,14 +21,6 @@
 -->
 
 
-<model-viewer src="model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-   
-</model-viewer>
-
-
 	<!--text & icon----->
 	<div class="contentContainer">
 		<div class="Projecttittle">
@@ -110,7 +102,7 @@
 
 		</div>
 		<div class="sideButton">
-			<button class="gallery">Image gallery</button>
+			<button class="gallery">3D Model</button>
 		</div>
 		<div class="sideButton">
 			<button class="workflow">Workflow</button>
@@ -248,6 +240,14 @@
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
+
+
+<script>
+  document.querySelector('.gallery').addEventListener('click', function() {
+    window.open('model-viewer.html', '_blank');
+  });
+</script>
+
 </body>
 
 </html>
